@@ -21,7 +21,7 @@ app.all('', function(req, res, next) {
 });
 
 router.get('/', (req, res) => {
-  res.send('Hello! Thank you for the interview! Have a wonderful day!');
+  res.send('Hello!');
 });
 
 //Add Task
